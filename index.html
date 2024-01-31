@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="containerChild" id="containerChild">
+            <div id="logo" class="logo"><i id="moon" class="fa-solid fa-moon font"></i> <i id="sun"
+                    class="fa-solid fa-cloud-sun font white"></i></div>
+            <input type="text" readonly id="input" class="input">
+            <div class="btnBody" id="btnBody">
+                <div class="btnChild" id="child">
+                    <div class="first" id="first">
+                        <button class="btn-del  can" id="btn-new"><i class="fa-solid fa-delete-left" style="color: green; font-size: 20px;"></i></button>
+                        <button class="btn green" style="font-size: 20px;">/</button>
+                        <!-- <i class="fa-solid fa-plus-minus" style="color: #000000;"></i> -->
+                        <button class="btn green" style="font-size: 20px;">%</button>
+                        <button id="ac" class="btn red " style="font-size: 20px; font-weight: 600;">AC</button>
+
+                        <!-- <i class="fa-solid fa-divide" style="color: #000000;"></i> -->
+                    </div>
+                    <div class="second" id="second">
+                        <button class="btn colorbutton">7</button>
+                        <button class="btn colorbutton">8</i></button>
+                        <button class="btn colorbutton">9</button>
+                        <button class="btn red colorbutton">*</button>
+                    </div>
+                    <div class="third" id="third">
+                        <button class="btn colorbutton">4</button>
+                        <button class="btn colorbutton">5</i></button>
+                        <button class="btn colorbutton">6</button>
+                        <button class="btn red colorbutton">-</button>
+                    </div>
+                    <div class="four" id="four">
+                        <button class="btn colorbutton">1</button>
+                        <button class="btn colorbutton">2</i></button>
+                        <button class="btn colorbutton">3</button>
+                        <button class="btn red colorbutton">+</button>
+                    </div>
+                    <div class="five side" id="five">
+                        <button class="btn extra colorbutton">0</button>
+                        <button class="btn colorbutton">.</button>
+                        <button class="btn red colorbutton" style="font-size: 20px;">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
